@@ -1,0 +1,34 @@
+# MacOS
+.DS_Store
+
+# GCP
+.gcloudignore
+
+# Git
+.git
+.gitignore
+
+# Python
+__pycache__/
+/setup.cfg
+venv/
+
+# Node.js
+.hubot_history
+node_modules/
+open-easyrtc/
+
+# Gitpod
+.theia/
+.gitpod.yml
+
+# Visual Studio Code
+.vscode/
+
+# GitHub
+LICENSE
+README.md
+docs/
+
+# Testes da aplicação
+cliente-testes.http

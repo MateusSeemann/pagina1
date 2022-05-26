@@ -1,0 +1,19 @@
+POST http://localhost:5000/gravar
+Content-Type: application/json
+Accept: application/json
+
+{
+    "medida": "boletim",
+    "marcadores": [
+        {"local": "escola"},
+        {"acao": "estudando"},
+        {"nome": "mateus"},
+        {"perfil": "aluno"}
+    ],
+    "valores": [
+        {"filosofia": 9},
+        {"fisica": 8},
+        {"matematica": 10}
+    ]
+}
+# boletim,local=escola,acao=estudando,nome=mateus,perfil=aluno filosofia=9,fisica=8,matematica=10
